@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Davi Nabas | Galeria de Artes</title>
+  <meta
+    name="description"
+    content="Galeria de artes de Davi Nabas. Conheça as obras, acesse as redes sociais e faça seu pedido."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-blur bg-blur-1"></div>
+  <div class="bg-blur bg-blur-2"></div>
+
+  <header class="header">
+    <div class="container nav">
+      <a href="#topo" class="brand">Davi Nabas</a>
+
+      <nav class="menu">
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="topo">
+    <section class="hero">
+      <div class="container hero-content">
+        <span class="eyebrow">Galeria de Artes</span>
+
+        <h1>
+          A arte de <span>Davi Nabas</span> em uma vitrine moderna,
+          elegante e impactante
+        </h1>
+
+        <p class="hero-text">
+          Explore as obras, descubra o estilo do artista e entre em contato
+          diretamente para fazer seu pedido.
+        </p>
+
+        <div class="hero-actions">
+          <a
+            class="btn btn-primary"
+            href="https://ig.me/m/_nabazzz"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Faça seu pedido aqui
+          </a>
+
+          <a
+            class="btn btn-secondary"
+            href="https://www.instagram.com/_nabazzz?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Instagram
+          </a>
+
+          <a
+            class="btn btn-secondary"
+            href="https://www.tiktok.com/@_nabazzz?is_from_webapp=1&sender_device=pc"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            TikTok
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-section" id="galeria">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag">Coleção</span>
+          <h2>Galeria</h2>
+          <p>
+            As imagens abaixo são exemplos. Depois você pode adicionar quantas
+            quiser no arquivo JavaScript que a grade organiza tudo automaticamente.
+          </p>
+        </div>
+
+        <div id="galleryGrid" class="gallery-grid"></div>
+      </div>
+    </section>
+
+    <section class="cta-section" id="contato">
+      <div class="container cta-box">
+        <div>
+          <span class="section-tag">Contato</span>
+          <h2>Gostou de alguma arte?</h2>
+          <p>
+            Fale diretamente com o criador no Instagram para encomendas,
+            dúvidas ou pedidos personalizados.
+          </p>
+        </div>
+
+        <div class="cta-actions">
+          <a
+            class="btn btn-primary"
+            href="https://ig.me/m/_nabazzz"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Fazer pedido
+          </a>
+
+          <a
+            class="btn btn-secondary"
+            href="https://www.instagram.com/_nabazzz?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ver perfil
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© <span id="currentYear"></span> Davi Nabas. Todos os direitos reservados.</p>
+      <div class="footer-links">
+        <a
+          href="https://www.instagram.com/_nabazzz?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Instagram
+        </a>
+        <a
+          href="https://www.tiktok.com/@_nabazzz?is_from_webapp=1&sender_device=pc"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          TikTok
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Fechar">
+      ×
+    </button>
+    <img id="lightboxImage" src="" alt="" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

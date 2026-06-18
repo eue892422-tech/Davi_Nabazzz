@@ -2,7 +2,7 @@ const artworks = [
   {
     title: "Frieren",
     category: "Ilustração tradicional",
-    image: "images/arte-9.png",
+    image: "images/arte-1.png",
     alt: "Obra artística de Davi Nabas com visual moderno"
   },
   {

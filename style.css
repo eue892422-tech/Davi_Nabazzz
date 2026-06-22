@@ -8,11 +8,75 @@
   --primary: #9b5cff;
   --primary-2: #6d8dff;
   --accent: #ffd36a;
+  --on-primary: #ffffff;
   --shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
   --radius-xl: 24px;
   --radius-lg: 18px;
   --radius-md: 14px;
   --container: 1180px;
+  --panel-bg: rgba(15, 15, 25, 0.88);
+  --panel-border: rgba(255, 255, 255, 0.12);
+  --backdrop-blur: blur(18px);
+}
+
+body.theme-contrast {
+  --bg: #000000;
+  --bg-soft: #0b0b0b;
+  --card: rgba(255, 255, 255, 0.10);
+  --card-border: rgba(255, 255, 255, 0.35);
+  --text: #ffffff;
+  --muted: #f4f4f4;
+  --primary: #fff200;
+  --primary-2: #ff9f1c;
+  --accent: #00f0ff;
+  --on-primary: #111111;
+  --panel-bg: rgba(0, 0, 0, 0.95);
+  --panel-border: rgba(255, 255, 255, 0.28);
+}
+
+body.theme-protanopia {
+  --bg: #0b1018;
+  --bg-soft: #121925;
+  --card: rgba(255, 255, 255, 0.06);
+  --card-border: rgba(255, 255, 255, 0.14);
+  --text: #f4f8ff;
+  --muted: #c8d4e4;
+  --primary: #2f80ed;
+  --primary-2: #7b61ff;
+  --accent: #ffd166;
+  --on-primary: #ffffff;
+  --panel-bg: rgba(14, 20, 33, 0.92);
+  --panel-border: rgba(255, 255, 255, 0.14);
+}
+
+body.theme-deuteranopia {
+  --bg: #0d1117;
+  --bg-soft: #161d27;
+  --card: rgba(255, 255, 255, 0.06);
+  --card-border: rgba(255, 255, 255, 0.14);
+  --text: #f3f7fc;
+  --muted: #c9d6e3;
+  --primary: #3a86ff;
+  --primary-2: #8338ec;
+  --accent: #ffbe0b;
+  --on-primary: #ffffff;
+  --panel-bg: rgba(16, 21, 30, 0.92);
+  --panel-border: rgba(255, 255, 255, 0.14);
+}
+
+body.theme-tritanopia {
+  --bg: #120f18;
+  --bg-soft: #1b1624;
+  --card: rgba(255, 255, 255, 0.06);
+  --card-border: rgba(255, 255, 255, 0.14);
+  --text: #fffafc;
+  --muted: #ddd2db;
+  --primary: #ff7b54;
+  --primary-2: #ffb703;
+  --accent: #ffffff;
+  --on-primary: #161616;
+  --panel-bg: rgba(24, 18, 30, 0.92);
+  --panel-border: rgba(255, 255, 255, 0.14);
 }
 
 * {
@@ -55,6 +119,23 @@ button {
   margin: 0 auto;
 }
 
+.skip-link {
+  position: absolute;
+  left: 16px;
+  top: -60px;
+  z-index: 9999;
+  background: #ffffff;
+  color: #111111;
+  padding: 12px 16px;
+  border-radius: 12px;
+  font-weight: 700;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: 16px;
+}
+
 .bg-blur {
   position: fixed;
   border-radius: 50%;
@@ -83,7 +164,7 @@ button {
 .header {
   position: sticky;
   top: 0;
-  z-index: 50;
+  z-index: 60;
   backdrop-filter: blur(16px);
   background: rgba(10, 10, 15, 0.55);
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
@@ -114,10 +195,12 @@ button {
   color: var(--muted);
   font-weight: 500;
   transition: 0.25s ease;
+  text-underline-offset: 4px;
 }
 
 .menu a:hover {
   color: #fff;
+  text-decoration: underline;
 }
 
 .hero {
@@ -192,7 +275,7 @@ button {
 
 .btn-primary {
   background: linear-gradient(135deg, var(--primary), var(--primary-2));
-  color: #fff;
+  color: var(--on-primary);
   box-shadow: 0 16px 40px rgba(109, 141, 255, 0.25);
 }
 
@@ -298,6 +381,11 @@ button {
   border-radius: 12px;
   padding: 10px 14px;
   font-weight: 700;
+  transition: 0.2s ease;
+}
+
+.view-btn:hover {
+  background: rgba(255,255,255,0.18);
 }
 
 .cta-section {
@@ -342,6 +430,14 @@ button {
   gap: 16px;
 }
 
+.footer-links a {
+  text-underline-offset: 4px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
 .lightbox {
   position: fixed;
   inset: 0;
@@ -382,6 +478,143 @@ button {
   cursor: pointer;
 }
 
+/* Painel de acessibilidade */
+.accessibility-toggle {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 120;
+  min-height: 52px;
+  padding: 0 18px;
+  border: none;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--primary), var(--primary-2));
+  color: var(--on-primary);
+  font-weight: 800;
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+.accessibility-toggle:hover {
+  transform: translateY(-2px);
+}
+
+.accessibility-panel {
+  position: fixed;
+  right: 18px;
+  bottom: 82px;
+  width: min(360px, calc(100vw - 24px));
+  z-index: 120;
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  border-radius: 22px;
+  backdrop-filter: var(--backdrop-blur);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+  padding: 18px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(12px) scale(0.98);
+  transition: 0.22s ease;
+}
+
+.accessibility-panel.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0) scale(1);
+}
+
+.accessibility-panel-header {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.accessibility-panel-header strong {
+  display: block;
+  font-size: 1.05rem;
+  margin-bottom: 4px;
+}
+
+.accessibility-panel-header p {
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.accessibility-close {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.08);
+  color: var(--text);
+  font-size: 1.6rem;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.accessibility-section + .accessibility-section {
+  margin-top: 18px;
+}
+
+.accessibility-label {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 0.92rem;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.accessibility-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.a11y-mode {
+  min-height: 46px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.14);
+  background: rgba(255,255,255,0.06);
+  color: var(--text);
+  font-weight: 700;
+  padding: 0 12px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.a11y-mode:hover {
+  border-color: rgba(255,255,255,0.24);
+  transform: translateY(-1px);
+}
+
+.a11y-mode.active {
+  background: linear-gradient(135deg, var(--primary), var(--primary-2));
+  color: var(--on-primary);
+  border-color: transparent;
+}
+
+.accessibility-note {
+  color: var(--muted);
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+
+/* Ajuste do botão do VLibras para não colidir */
+div[vw-access-button] {
+  bottom: 88px !important;
+  left: 18px !important;
+}
+
 @media (max-width: 768px) {
   .menu {
     display: none;
@@ -409,6 +642,26 @@ button {
   .cta-actions .btn {
     width: 100%;
   }
+
+  .accessibility-panel {
+    right: 12px;
+    bottom: 76px;
+    width: calc(100vw - 24px);
+  }
+
+  .accessibility-options {
+    grid-template-columns: 1fr;
+  }
+
+  .accessibility-toggle {
+    right: 12px;
+    bottom: 12px;
+  }
+
+  div[vw-access-button] {
+    left: 12px !important;
+    bottom: 82px !important;
+  }
 }
 
 @media (max-width: 520px) {
@@ -427,5 +680,18 @@ button {
   .footer-content {
     align-items: flex-start;
     flex-direction: column;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
   }
 }

@@ -319,7 +319,9 @@ const videoCategoriesData = [
     label: "Trend: Anatomia identica a minha",
     videos: [
       { src: "videos/trend/video1.mp4", title: "Himmel" },
-      { src: "videos/trend/video2.mp4", title: "Frieren" }
+      { src: "videos/trend/video2.mp4", title: "Frieren" },
+      { src: "videos/trend/video3.mp4", title: "Frieren" },
+      { src: "videos/trend/video4.mp4", title: "Eisen" }
     ]
   }
 ];

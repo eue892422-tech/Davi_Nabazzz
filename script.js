@@ -315,8 +315,8 @@ lightbox.addEventListener("click", (event) => {
 */
 const videoCategoriesData = [
   {
-    id: "trend",
-    label: "trend",
+    id: "Trend: Anatomia identica a minha",
+    label: "Trend: Anatomia identica a minha",
     videos: [
       { src: "videos/trend/video1.mp4", title: "Vídeo 1" },
       { src: "videos/trend/video2.mp4", title: "Vídeo 2" }

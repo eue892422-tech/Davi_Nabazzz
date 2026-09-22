@@ -196,7 +196,14 @@ const artworks = [
     category: "Ilustração tradicional",
     image: "images/desenho25.jpg",
     alt: "Obra artística de Davi Nabas com visual moderno"
+  },
+  {
+    title: "Power (Chainsaw Man)",
+    category: "Ilustração tradicional",
+    image: "images/desenho26.jpg",
+    alt: "Obra artística de Davi Nabas com visual moderno"
   }
+  
 ];
 
 

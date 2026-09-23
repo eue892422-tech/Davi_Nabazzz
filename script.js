@@ -186,7 +186,7 @@ const artworks = [
     alt: "Obra artística de Davi Nabas com visual moderno"
   },
   {
-    title: "Fern (frieren)",
+    title: "Fern (Frieren)",
     category: "Ilustração tradicional",
     image: "images/desenho24.jpg",
     alt: "Obra artística de Davi Nabas com visual moderno"
@@ -201,6 +201,30 @@ const artworks = [
     title: "Power (Chainsaw Man)",
     category: "Ilustração tradicional",
     image: "images/desenho26.jpg",
+    alt: "Obra artística de Davi Nabas com visual moderno"
+  },  
+  {
+    title: "Yor Forger (SPY x FAMILY)",
+    category: "Ilustração tradicional",
+    image: "images/desenho27.jpg",
+    alt: "Obra artística de Davi Nabas com visual moderno"
+  },
+    {
+    title: "Joseph Joestar (JOJO´s Bizarre Adventure)",
+    category: "Ilustração tradicional",
+    image: "images/desenho28.jpg",
+    alt: "Obra artística de Davi Nabas com visual moderno"
+  },
+    {
+    title: "São Carlos Acutis",
+    category: "Ilustração tradicional",
+    image: "images/desenho29.jpg",
+    alt: "Obra artística de Davi Nabas com visual moderno"
+  },
+    {
+    title: "Jesus",
+    category: "Ilustração tradicional",
+    image: "images/desenho30.jpg",
     alt: "Obra artística de Davi Nabas com visual moderno"
   }
   

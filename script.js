@@ -307,7 +307,7 @@ const artworks = [
   },
     {
     title: "Shinobu Kocho",
-    category: "Ilustração tradicional",
+    category: "Ilustração digital",
     image: "images/desenho44.jpg",
     alt: "Obra artística de Davi Nabas com visual moderno"
   },
@@ -337,7 +337,7 @@ const artworks = [
   },
     {
     title: "Rem (RE: Zero)",
-    category: "Ilustração tradicional",
+    category: "Ilustração digital",
     image: "images/desenho49.jpg",
     alt: "Obra artística de Davi Nabas com visual moderno"
   }

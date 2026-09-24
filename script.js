@@ -222,12 +222,125 @@ const artworks = [
     alt: "Obra artística de Davi Nabas com visual moderno"
   },
     {
-    title: "Jesus",
+    title: "Jesus Transfigurado",
     category: "Ilustração tradicional",
     image: "images/desenho30.jpg",
     alt: "Obra artística de Davi Nabas com visual moderno"
+  },
+  {
+    title: "São Maximiliano (Maria Kolbe)",
+    category: "Ilustração tradicional",
+    image: "images/desenho31.jpg",
+    alt: "Obra artística de Davi Nabas com visual moderno"
+  },
+    {
+    title: "Mikasa (Attack on Titan)",
+    category: "Ilustração tradicional",
+    image: "images/desenho32.jpg",
+    alt: "Obra artística de Davi Nabas com visual moderno"
+  },
+    {
+    title: "Marcille Donato",
+    category: "Ilustração tradicional",
+    image: "images/desenho33.jpg",
+    alt: "Obra artística de Davi Nabas com visual moderno"
+  },
+    {
+    title: "Kyojuro Rengoku",
+    category: "Ilustração tradicional",
+    image: "images/desenho34.jpg",
+    alt: "Obra artística de Davi Nabas com visual moderno"
+  },
+  {
+    title: "Fern (Frieren)",
+    category: "Ilustração tradicional",
+    image: "images/desenho35.jpg",
+    alt: "Obra artística de Davi Nabas com visual moderno"
+  },
+    {
+    title: "Goku (Super Sayajin)",
+    category: "Ilustração tradicional",
+    image: "images/desenho36.jpg",
+    alt: "Obra artística de Davi Nabas com visual moderno"
+  },
+    {
+    title: "Yuta (Jujutsu Kaisen)",
+    category: "Ilustração tradicional",
+    image: "images/desenho37.jpg",
+    alt: "Obra artística de Davi Nabas com visual moderno"
+  },
+    {
+    title: "Nossa Senhora das Dores",
+    category: "Ilustração tradicional",
+    image: "images/desenho38.jpg",
+    alt: "Obra artística de Davi Nabas com visual moderno"
+  },
+    {
+    title: "Kasane teto",
+    category: "Ilustração tradicional",
+    image: "images/desenho39.jpg",
+    alt: "Obra artística de Davi Nabas com visual moderno"
+  },
+    {
+    title: "Jonathan Joestar",
+    category: "Ilustração tradicional",
+    image: "images/desenho40.jpg",
+    alt: "Obra artística de Davi Nabas com visual moderno"
+  },
+    {
+    title: "Ichigo Kurosaki",
+    category: "Ilustração tradicional",
+    image: "images/desenho41.jpg",
+    alt: "Obra artística de Davi Nabas com visual moderno"
+  },
+    {
+    title: "Santo Agostinho e Santa Mônica",
+    category: "Ilustração tradicional",
+    image: "images/desenho42.jpg",
+    alt: "Obra artística de Davi Nabas com visual moderno"
+  },
+    {
+    title: "Nossa Senhora do Carmo",
+    category: "Ilustração tradicional",
+    image: "images/desenho43.jpg",
+    alt: "Obra artística de Davi Nabas com visual moderno"
+  },
+    {
+    title: "Shinobu Kocho",
+    category: "Ilustração tradicional",
+    image: "images/desenho44.jpg",
+    alt: "Obra artística de Davi Nabas com visual moderno"
+  },
+    {
+    title: "Maomao",
+    category: "Ilustração tradicional",
+    image: "images/desenho45.jpg",
+    alt: "Obra artística de Davi Nabas com visual moderno"
+  },
+    {
+    title: "Hatsune Miku",
+    category: "Ilustração tradicional",
+    image: "images/desenho46.jpg",
+    alt: "Obra artística de Davi Nabas com visual moderno"
+  },
+    {
+    title: "Frieren",
+    category: "Ilustração tradicional",
+    image: "images/desenho47.jpg",
+    alt: "Obra artística de Davi Nabas com visual moderno"
+  },
+    {
+    title: "Santa Clara de Assis",
+    category: "Ilustração tradicional",
+    image: "images/desenho48.jpg",
+    alt: "Obra artística de Davi Nabas com visual moderno"
+  },
+    {
+    title: "Rem (RE: Zero)",
+    category: "Ilustração tradicional",
+    image: "images/desenho49.jpg",
+    alt: "Obra artística de Davi Nabas com visual moderno"
   }
-  
 ];
 
 

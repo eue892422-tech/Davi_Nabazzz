@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://eue892422-tech.github.io/Davi_Nabazzz/sitemap.xml

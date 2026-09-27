@@ -3,343 +3,343 @@ const artworks = [
     title: "Frieren, Especial seleção brasileira",
     category: "Ilustração tradicional",
     image: "images/arte-1.png",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Frieren em especial com tema da seleção brasileira, por Davi Nabazzz"
   },
   {
     title: "Maomao",
     category: "Ilustração tradicional",
     image: "images/arte-2.png",
-    alt: "Ilustração artística de Davi Nabas em destaque"
+    alt: "Desenho de Maomao, personagem de Diário de uma Apotecária, por Davi Nabazzz"
   }, 
   {
     title: "Pomni",
     category: "Ilustração digital",
     image: "images/digital1.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Pomni, personagem de The Amazing Digital Circus, por Davi Nabazzz"
   },
   {
     title: "Hatsune miku e Rem",
     category: "Ilustração digital",
     image: "images/digital2.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Hatsune Miku e Rem, por Davi Nabazzz"
   },
   {
     title: "Hatsune miku",
     category: "Ilustração digital",
     image: "images/digital3.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Hatsune Miku, por Davi Nabazzz"
   },
   {
     title: "Rem (Re:zero)",
     category: "Ilustração digital",
     image: "images/digital4.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Rem, personagem de Re:Zero, por Davi Nabazzz"
   },
   {
     title: "Ilustracão infantil",
     category: "Ilustração digital",
     image: "images/digital5.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Ilustração infantil criada por Davi Nabazzz"
   },
   {
     title: "Toji fushiguro",
     category: "Ilustração tradicional",
     image: "images/desenho.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Toji Fushiguro, personagem de Jujutsu Kaisen, por Davi Nabazzz"
   },
   {
     title: "Bocchi (de bocchi the rock)",
     category: "Ilustração tradicional",
     image: "images/desenho1.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Bocchi, personagem de Bocchi the Rock!, por Davi Nabazzz"
   },
   {
     title: "Beatrice",
     category: "Ilustração tradicional",
     image: "images/desenho2.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Beatrice, personagem de Re:Zero, por Davi Nabazzz"
   },
   {
     title: "Santa rita de cássia",
     category: "Ilustração tradicional",
     image: "images/desenho3.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Santa Rita de Cássia por Davi Nabazzz"
   },
   {
     title: "Santa joana d'arc",
     category: "Ilustração tradicional",
     image: "images/desenho4.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Santa Joana d'Arc por Davi Nabazzz"
   },
   {
     title: "Frieren",
     category: "Ilustração tradicional",
     image: "images/desenho5.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Frieren, personagem de Frieren e a Jornada para o Além, por Davi Nabazzz"
   },
   {
     title: "Comemoração dia de pentecostes",
     category: "Ilustração tradicional",
     image: "images/desenho6.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Ilustração artística para comemoração do dia de Pentecostes, por Davi Nabazzz"
   },
   {
     title: "Kaoruko waguri",
     category: "Ilustração tradicional",
     image: "images/desenho7.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Kaoruko Waguri por Davi Nabazzz"
   },
   {
     title: "Hu tao",
     category: "Ilustração tradicional",
     image: "images/desenho8.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Hu Tao, personagem de Genshin Impact, por Davi Nabazzz"
   },
   {
     title: "Griffith",
     category: "Ilustração tradicional",
     image: "images/desenho9.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Griffith, personagem de Berserk, por Davi Nabazzz"
   },
   {
     title: "Rei ayanami",
     category: "Ilustração tradicional",
     image: "images/desenho10.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Rei Ayanami, personagem de Evangelion, por Davi Nabazzz"
   },
   {
     title: "Marin kitagawa",
     category: "Ilustração tradicional",
     image: "images/desenho11.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Marin Kitagawa, personagem de My Dress-Up Darling, por Davi Nabazzz"
   },
   {
     title: "Frieren",
     category: "Ilustração tradicional",
     image: "images/desenho12.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Frieren, personagem de Frieren e a Jornada para o Além, por Davi Nabazzz"
   },
   {
     title: "Nobara kugisaki",
     category: "Ilustração tradicional",
     image: "images/desenho13.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Nobara Kugisaki, personagem de Jujutsu Kaisen, por Davi Nabazzz"
   },
   {
     title: "Frieren",
     category: "Ilustração tradicional",
     image: "images/desenho14.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Frieren, personagem de Frieren e a Jornada para o Além, por Davi Nabazzz"
   },
   {
     title: "Obanai iguro e Mitsuri kanroji",
     category: "Ilustração tradicional",
     image: "images/desenho15.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Obanai Iguro e Mitsuri Kanroji, personagens de Demon Slayer, por Davi Nabazzz"
   },
   {
     title: "Cyborg",
     category: "Ilustração tradicional",
     image: "images/desenho16.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Ilustração de um personagem ciborgue por Davi Nabazzz"
   },
   {
     title: "Marcille donato",
     category: "Ilustração tradicional",
     image: "images/desenho17.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Marcille Donato, personagem de Delicious in Dungeon, por Davi Nabazzz"
   },
   {
     title: "Stark (frieren)",
     category: "Ilustração tradicional",
     image: "images/desenho18.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Stark, personagem de Frieren e a Jornada para o Além, por Davi Nabazzz"
   },
   {
     title: "Maomao (diário de uma apotecária)",
     category: "Ilustração tradicional",
     image: "images/desenho19.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Maomao, personagem de Diário de uma Apotecária, por Davi Nabazzz"
   },
   {
     title: "Mambo",
     category: "Ilustração tradicional",
     image: "images/desenho20.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Mambo por Davi Nabazzz"
   },
   {
     title: "Makima",
     category: "Ilustração tradicional",
     image: "images/desenho21.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Makima, personagem de Chainsaw Man, por Davi Nabazzz"
   },
   {
     title: "Mandy",
     category: "Ilustração tradicional",
     image: "images/desenho22.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Mandy por Davi Nabazzz"
   },
   {
     title: "Santissima trindade",
     category: "Ilustração tradicional",
     image: "images/desenho23.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Ilustração da Santíssima Trindade por Davi Nabazzz"
   },
   {
     title: "Fern (Frieren)",
     category: "Ilustração tradicional",
     image: "images/desenho24.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Fern, personagem de Frieren e a Jornada para o Além, por Davi Nabazzz"
   },
   {
     title: "Comemoração do dia coração de Jesus",
     category: "Ilustração tradicional",
     image: "images/desenho25.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Ilustração para comemoração do Sagrado Coração de Jesus, por Davi Nabazzz"
   },
   {
     title: "Power (Chainsaw Man)",
     category: "Ilustração tradicional",
     image: "images/desenho26.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Power, personagem de Chainsaw Man, por Davi Nabazzz"
   },  
   {
     title: "Yor Forger (SPY x FAMILY)",
     category: "Ilustração tradicional",
     image: "images/desenho27.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Yor Forger, personagem de SPY x FAMILY, por Davi Nabazzz"
   },
-    {
+  {
     title: "Joseph Joestar (JOJO´s Bizarre Adventure)",
     category: "Ilustração tradicional",
     image: "images/desenho28.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Joseph Joestar, personagem de JoJo's Bizarre Adventure, por Davi Nabazzz"
   },
-    {
+  {
     title: "São Carlos Acutis",
     category: "Ilustração tradicional",
     image: "images/desenho29.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de São Carlo Acutis por Davi Nabazzz"
   },
-    {
+  {
     title: "Jesus Transfigurado",
     category: "Ilustração tradicional",
     image: "images/desenho30.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Ilustração de Jesus Transfigurado por Davi Nabazzz"
   },
   {
     title: "São Maximiliano (Maria Kolbe)",
     category: "Ilustração tradicional",
     image: "images/desenho31.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de São Maximiliano Maria Kolbe por Davi Nabazzz"
   },
-    {
+  {
     title: "Mikasa (Attack on Titan)",
     category: "Ilustração tradicional",
     image: "images/desenho32.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Mikasa, personagem de Attack on Titan, por Davi Nabazzz"
   },
-    {
+  {
     title: "Marcille Donato",
     category: "Ilustração tradicional",
     image: "images/desenho33.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Marcille Donato, personagem de Delicious in Dungeon, por Davi Nabazzz"
   },
-    {
+  {
     title: "Kyojuro Rengoku",
     category: "Ilustração tradicional",
     image: "images/desenho34.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Kyojuro Rengoku, personagem de Demon Slayer, por Davi Nabazzz"
   },
   {
     title: "Fern (Frieren)",
     category: "Ilustração tradicional",
     image: "images/desenho35.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Fern, personagem de Frieren e a Jornada para o Além, por Davi Nabazzz"
   },
-    {
+  {
     title: "Goku (Super Sayajin)",
     category: "Ilustração tradicional",
     image: "images/desenho36.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Goku em Super Saiyajin por Davi Nabazzz"
   },
-    {
+  {
     title: "Yuta (Jujutsu Kaisen)",
     category: "Ilustração tradicional",
     image: "images/desenho37.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Yuta, personagem de Jujutsu Kaisen, por Davi Nabazzz"
   },
-    {
+  {
     title: "Nossa Senhora das Dores",
     category: "Ilustração tradicional",
     image: "images/desenho38.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Nossa Senhora das Dores por Davi Nabazzz"
   },
-    {
+  {
     title: "Kasane teto",
     category: "Ilustração tradicional",
     image: "images/desenho39.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Kasane Teto por Davi Nabazzz"
   },
-    {
+  {
     title: "Jonathan Joestar",
     category: "Ilustração tradicional",
     image: "images/desenho40.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Jonathan Joestar, personagem de JoJo's Bizarre Adventure, por Davi Nabazzz"
   },
-    {
+  {
     title: "Ichigo Kurosaki",
     category: "Ilustração tradicional",
     image: "images/desenho41.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Ichigo Kurosaki, personagem de Bleach, por Davi Nabazzz"
   },
-    {
+  {
     title: "Santo Agostinho e Santa Mônica",
     category: "Ilustração tradicional",
     image: "images/desenho42.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Santo Agostinho e Santa Mônica por Davi Nabazzz"
   },
-    {
+  {
     title: "Nossa Senhora do Carmo",
     category: "Ilustração tradicional",
     image: "images/desenho43.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Nossa Senhora do Carmo por Davi Nabazzz"
   },
-    {
+  {
     title: "Shinobu Kocho",
     category: "Ilustração digital",
     image: "images/desenho44.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Shinobu Kocho, personagem de Demon Slayer, por Davi Nabazzz"
   },
-    {
+  {
     title: "Maomao",
     category: "Ilustração tradicional",
     image: "images/desenho45.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Maomao, personagem de Diário de uma Apotecária, por Davi Nabazzz"
   },
-    {
+  {
     title: "Hatsune Miku",
     category: "Ilustração tradicional",
     image: "images/desenho46.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Hatsune Miku por Davi Nabazzz"
   },
-    {
+  {
     title: "Frieren",
     category: "Ilustração tradicional",
     image: "images/desenho47.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Frieren, personagem de Frieren e a Jornada para o Além, por Davi Nabazzz"
   },
-    {
+  {
     title: "Santa Clara de Assis",
     category: "Ilustração tradicional",
     image: "images/desenho48.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Santa Clara de Assis por Davi Nabazzz"
   },
-    {
+  {
     title: "Rem (RE: Zero)",
     category: "Ilustração digital",
     image: "images/desenho49.jpg",
-    alt: "Obra artística de Davi Nabas com visual moderno"
+    alt: "Desenho de Rem, personagem de Re:Zero, por Davi Nabazzz"
   }
 ];
 
